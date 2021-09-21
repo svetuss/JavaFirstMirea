@@ -5,12 +5,11 @@ import java.util.Scanner;
 public class Sum {
     private int sumArrayFor, sumArrayWhile, sumArrayDoWhile;
     private int s;
-    private int[] arr = new int[s];
+    private int[] arr = new int[1000];
     private Scanner scanner = new Scanner(System.in);
         
     public Sum(int s) {
         this.s = s;
-        arr = new int[s];
         for (int i = 0; i < s; i++) {
             arr[i] = scanner.nextInt();
         }
