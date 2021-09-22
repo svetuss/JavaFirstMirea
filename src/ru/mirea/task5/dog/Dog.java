@@ -1,23 +1,23 @@
-package ru.mirea.task5;
+package ru.mirea.task5.dog;
 
 public class Dog {
     private String name;
-    private int weight;
-    public Dog(String n, int w){
+    private int years;
+    public Dog(String n, int y){
         name = n;
-        weight = w;
+        years = y;
     }
     public Dog(String n)
     {
         name = n;
-        weight = 0;
+        years = 1;
     }
     public Dog(){
         name = "Пёс";
-        weight = 0;
+        years = 1;
     }
-    public void setWeight(int weight) {
-        this.weight = weight;
+    public void setYears(int weight) {
+        this.years = weight;
     }
     public void setName(String name) {
         this.name = name;
@@ -26,10 +26,10 @@ public class Dog {
     {
         return name;
     }
-    public int getWeight() {
-        return weight;
+    public int getYears() {
+        return years;
     }
     public String toString(){
-        return this.name+", weight "+this.weight;
+        return this.name+", weight "+this.years;
     }
 }

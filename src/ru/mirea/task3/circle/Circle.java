@@ -1,4 +1,4 @@
-package ru.mirea.task3;
+package ru.mirea.task3.circle;
 
 public class Circle {
     private int diametr;

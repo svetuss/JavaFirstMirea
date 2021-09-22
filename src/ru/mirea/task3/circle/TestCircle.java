@@ -1,4 +1,6 @@
-package ru.mirea.task3;
+package ru.mirea.task3.circle;
+
+import ru.mirea.task3.circle.Circle;
 
 public class TestCircle {
     public static void main(String[] ars){

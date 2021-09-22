@@ -1,10 +1,10 @@
-package ru.mirea.task5;
+package ru.mirea.task5.dog;
 
 public class Breeds extends Dog {
     private String breedsDog;
-    public Breeds(String n, int w, String b) {
-        super("Аска",20);
-        breedsDog=b;
+    public Breeds(String n, int years, String br) {
+        super("Аска",5);
+        breedsDog=br;
     }
     public void setBreeds(String breedsDog) {
         this.breedsDog = breedsDog;
@@ -15,6 +15,6 @@ public class Breeds extends Dog {
     }
     public String toString()
     {
-        return getName()+", вес "+getWeight()+", порода "+getBreeds();
+        return getName()+", возраст: "+getYears()+" , порода: "+getBreeds();
     }
 }
