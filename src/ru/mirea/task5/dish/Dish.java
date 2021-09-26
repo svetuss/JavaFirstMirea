@@ -13,5 +13,5 @@ public abstract class Dish {
     public String getColor(){
         return color;
     }
-    public abstract void displayInfo();
+    public abstract void intoConsol();
 }

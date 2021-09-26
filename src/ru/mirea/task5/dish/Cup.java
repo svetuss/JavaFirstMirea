@@ -8,7 +8,7 @@ public class Cup extends Dish {
         super(material,colour);
         this.shape = shape;
     }
-    public void displayInfo(){
+    public void intoConsol(){
         System.out.println("Чашка, сделанная из  материала "+ super.getMaterial()+", цвет "+super.getColor()+", форма "+ shape);
     }
 }

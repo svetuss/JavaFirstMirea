@@ -16,8 +16,8 @@ public class Dog {
         name = "Пёс";
         years = 1;
     }
-    public void setYears(int weight) {
-        this.years = weight;
+    public void setYears(int years) {
+        this.years = years;
     }
     public void setName(String name) {
         this.name = name;

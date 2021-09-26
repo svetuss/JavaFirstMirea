@@ -5,6 +5,6 @@ import java.util.Scanner;
 public class TestFurniture {
     public static void main(String[] args){
         FurnitureShop shop = new FurnitureShop();
-        shop.search();
+        shop.searchShop();
     }
 }

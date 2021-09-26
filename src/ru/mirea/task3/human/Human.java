@@ -19,6 +19,6 @@ public class Human {
     public int getHeight() { return height; }
     public String toString()
     {
-        return this.name+" is "+this.age+" years old and weight is "+this.weight+ ", height is "+this.height+'\n';
+        return this.name+" is "+this.age+" years old and weight is "+this.weight+ ", height is "+this.height;
     }
 }

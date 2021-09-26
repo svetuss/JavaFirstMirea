@@ -8,23 +8,23 @@ import ru.mirea.task3.human.Leg;
 public class TestHuman
 {
     public static void main(String[] args) {
-        Human a1 = new Human ("Sveta", 18, 55, 170);
-        System.out.println(a1.toString());
-        System.out.println(a1.getName()+'\n');
-        System.out.println("Age: "+a1.getAge()+'\n');
-        System.out.println("Weight: "+a1.getWeight()+'\n');
-        System.out.println("Height: "+a1.getHeight()+'\n');
+        Human hu1 = new Human ("Svetlana", 18, 55, 160);
+        System.out.println(hu1.toString());
+        System.out.println(hu1.getName());
+        System.out.println("Age: "+hu1.getAge());
+        System.out.println("Weight: "+hu1.getWeight());
+        System.out.println("Height: "+hu1.getHeight());
         Leg l1 = new Leg(36);
         System.out.println("Size of leg: "+l1.getSize());
-        l1.setSize(39);
-        System.out.println("New size: "+l1.getSize()+'\n');
-        Hand h1 = new Hand(75);
-        System.out.println("Length: "+h1.getLength()+'\n');
-        h1.setLength(78);
-        System.out.println("New length: "+h1.getLength()+'\n');
-        Head h2 = new Head();
-        h2.setEyes("green");
-        h2.setHair("brown");
-        System.out.println("Color eyes: "+h2.getEyes()+'\n'+"Color hair: "+h2.getHair());
+        l1.setSize(37);
+        System.out.println("New size: "+l1.getSize());
+        Hand ha1 = new Hand(74);
+        System.out.println("Length: "+ha1.getLength());
+        ha1.setLength(76);
+        System.out.println("New length: "+ha1.getLength());
+        Head hea2 = new Head();
+        hea2.setEyes("Green");
+        hea2.setHair("Shoulder-high");
+        System.out.println("Color eyes: "+hea2.getEyes()+"Hair length: "+hea2.getHair());
     }
 }

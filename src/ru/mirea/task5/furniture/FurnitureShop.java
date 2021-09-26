@@ -12,19 +12,17 @@ public class FurnitureShop {
     Table t2 = new Table("Дуб", "Желтый", 3450, 150);
     Table t3 = new Table("Металл", "Черный", 900, 90);
 
-    public void search(){
-        String com;
+    public void searchShop(){
+        String fu =sc.nextLine();
         System.out.println("Добро пожаловать в магазин мебели.");
         System.out.println("Выберите интересующую Вас мебель: Кровать или Стол.");
-        com = sc.nextLine();
-        //System.out.println(com);
-        if (com.equals("Стол"))
+        if (fu.equals("Стол"))
         {
             t1.displayInfo();
             t2.displayInfo();
             t3.displayInfo();
         }
-        if (com.equals("Кровать"))
+        if (fu.equals("Кровать"))
         {
             b1.displayInfo();
             b2.displayInfo();

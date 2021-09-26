@@ -8,7 +8,7 @@ public class Griddle extends Dish {
         super(material,colour);
         this.shape = shape;
     }
-    public void displayInfo(){
+    public void intoConsol(){
         System.out.println("Сковородка, сделанная из материала "+ super.getMaterial()+", "+super.getColor()+" цвета, имеет форму "+ shape);
     }
 }
