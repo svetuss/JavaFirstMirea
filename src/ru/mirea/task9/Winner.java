@@ -95,9 +95,6 @@ public class Winner {
         });
     }
 
-    private void labelLast(Font font) {
-    }
-
     public static void main(String[] args){
         Winner frame = new Winner();
     }
