@@ -9,15 +9,15 @@ public class Opt13 {
         test.thirteen();
     }
 
-    public int thirteen() {
+    public static void thirteen() {
         Scanner in = new Scanner(System.in);
-        int x = in.nextInt();
-        if (x!=0) {
-            System.out.println("Число с нечётным номером: " + x);
-            return thirteen();
-        }
-        else {
-            return 0;
+        int n = in.nextInt();
+        if (n != 0) {
+            int m = in.nextInt();
+            System.out.println("Число на нечётной позиции " + n);
+            if (m != 0) {
+                thirteen();
+            }
         }
     }
 }

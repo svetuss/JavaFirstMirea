@@ -54,6 +54,5 @@ public class TestShape {
         System.out.println(sq1.getArea());
         System.out.println(sq1.getColor());
         System.out.println(sq1.getSide());
-        System.out.println(sq1.getLength());
     }
 }
