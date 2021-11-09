@@ -6,8 +6,8 @@ import java.awt.*;
 
 public class NewBotva extends JFrame {
 
-    JButton addFir = new JButton("Раздать первому.");
-    JButton addSec = new JButton("Раздать второму.");
+    JButton addFir = new JButton("Выдать карты первому.");
+    JButton addSec = new JButton("Выдать карты второму.");
     JButton playBut = new JButton("Играть.");
     JLabel firstCount = new JLabel();
     JLabel secondCount = new JLabel();
