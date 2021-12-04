@@ -30,7 +30,7 @@ public class MyTetris23 {
         shapes = inScanner.next();
 
         while (shapesCheck(figu, new Figure(colour, shapes)) == null) {
-            System.out.println("Re-enter!");
+            System.out.println("Re-enter!!");
             System.out.print("Colour of Tetris figure: ");
             colour = inScanner.next();
             System.out.print("Shape: ");
