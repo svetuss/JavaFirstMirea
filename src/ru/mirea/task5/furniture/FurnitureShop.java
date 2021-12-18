@@ -13,9 +13,9 @@ public class FurnitureShop {
     Table t3 = new Table("Металл", "Черный", 900, 90);
 
     public void searchShop(){
-        String fu =sc.nextLine();
         System.out.println("Добро пожаловать в магазин мебели.");
         System.out.println("Выберите интересующую Вас мебель: Кровать или Стол.");
+        String fu =sc.nextLine();
         if (fu.equals("Стол"))
         {
             t1.displayInfo();
